@@ -12,6 +12,7 @@ public class hasher {
             String temp = ""+chars[i] + "" + chars[i+1];
             char ch = (char)Integer.parseInt(temp, 16);
             finalResult += ch;
+
         }
         System.out.println(finalResult);
     }
